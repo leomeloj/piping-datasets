@@ -3,7 +3,7 @@ import java.io.PrintWriter
 import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.io.Source
-import org.apache.spark.sql.{Dataset, SparkSession}
+import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 
 import scala.collection.mutable.ListBuffer
 
@@ -21,11 +21,35 @@ object pipe {
                      quality: String
                    )
 
+  val spark = SparkSession.builder.master("local[*]").appName("My App").config("spark.sql.warehouse.dir", "file:///usr/local/spark/").getOrCreate()
+  // For implicit conversions like converting RDDs to DataFrames
+  import spark.implicits._
+
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder.master("local[*]").appName("My App").config("spark.sql.warehouse.dir", "file:///usr/local/spark/").getOrCreate()
-    // For implicit conversions like converting RDDs to DataFrames
-    import spark.implicits._
-    val myFile = spark.read.textFile("file.fastq")
+
+    //Creates the Dataset based on the base FastQ File
+    val ds: Dataset[FastQ] = readFASTQ("file.fastq").as[FastQ]
+    val i = 0
+    val lista = ds.collect()
+    val newList = new ListBuffer[FastQ]()
+
+    //Creates a list of FastQ values that represents the output of the Piped application (i.e. Trimmomatic)
+    for(i <- 0 to lista.length - 1){
+      newList += piping(lista(i))
+    }
+
+    //Creates a new DataSet based on the output of the Piped application (i.e. Trimmomatic)
+    val dsNew = newList.toDS()
+
+    dsNew.show()
+
+  }
+
+  //Function that reads a FastQ and return a DataFrame (The DF can be converted to a FastQ DS by using val ds: Dataset[FastQ] = readFASTQ("file.fastq").as[FastQ])
+  def readFASTQ(filePath: String): DataFrame = {
+    // Reads the Text file on the filePath defined in the argument
+    val myFile = spark.read.textFile(filePath)
+    //Creates an array by breaking the file by line separators
     val array = myFile.collect()
 
     val myFile1 = new ListBuffer[FastQ]()
@@ -35,26 +59,18 @@ object pipe {
     }
 
 
-    val df = myFile1.toDF()
-    val ds: Dataset[FastQ] = df.as[FastQ]
-    //val ds = Seq(FastQ("@SEQ_ID2", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65"), FastQ("@SEQ_ID1", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65")).toDS()
-    val i = 0
-    val lista = ds.collect()
-    val newList = new ListBuffer[FastQ]()
-
-    for(i <- 0 to lista.length - 1){
-      newList += piping(lista(i))
-    }
-
-    val dsNew = newList.toDS()
-
-    dsNew.show()
-
+    return myFile1.toDF()
   }
 
+  def printList(args: TraversableOnce[_]): Unit = {
+    args.foreach(println)
+  }
+
+  //Function that creates a pipe with the content of one tuple of a Dataset and return one FastQ typed value
   def piping(data: FastQ): FastQ = {
-    val command = "/home/leonardo/projects/sparkNew/src/main/scala/command.sh"
-    val pipeInput = "/home/leonardo/projects/pipeInput"
+    //CHANGE THE LINES BELOW!!!
+    val command = "src/main/scala/command.sh" //The script goes here
+    val pipeInput = "pipeInput" //the path to the pipe goes here
     val proc = Runtime.getRuntime.exec(Array(command))
 
     new Thread("stderr reader for " + command) {
@@ -75,7 +91,8 @@ object pipe {
 
     val outputLines = Source.fromInputStream(proc.getInputStream).getLines
     val outputList = outputLines.toList
-    return FastQ(outputList(0), outputList(1),outputList(2),outputList(3))
+    //FIND OUT WHY THE VALUES COMES IN A DIFFERENT ORDER 0,3,1,2 instead of 0,1,2,3
+    return FastQ(outputList(0), outputList(3),outputList(1),outputList(2))
 
   }
 }
