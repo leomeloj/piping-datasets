@@ -25,7 +25,19 @@ object pipe {
     val spark = SparkSession.builder.master("local[*]").appName("My App").config("spark.sql.warehouse.dir", "file:///usr/local/spark/").getOrCreate()
     // For implicit conversions like converting RDDs to DataFrames
     import spark.implicits._
-    val ds = Seq(FastQ("@SEQ_ID2", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65"), FastQ("@SEQ_ID1", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65")).toDS()
+    val myFile = spark.read.textFile("file.fastq")
+    val array = myFile.collect()
+
+    val myFile1 = new ListBuffer[FastQ]()
+
+    for(i <- 0 to array.length - 1 by 4){
+      myFile1 += FastQ(array(i),array(i+1),array(i+2),array(i+3))
+    }
+
+
+    val df = myFile1.toDF()
+    val ds: Dataset[FastQ] = df.as[FastQ]
+    //val ds = Seq(FastQ("@SEQ_ID2", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65"), FastQ("@SEQ_ID1", "GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT", "+", "!''*((((***+))%%%++)(%%%%).1***-+*''))**55CCF>>>>>>CCCCCCC65")).toDS()
     val i = 0
     val lista = ds.collect()
     val newList = new ListBuffer[FastQ]()
