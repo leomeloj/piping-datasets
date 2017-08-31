@@ -69,8 +69,8 @@ object pipe {
   //Function that creates a pipe with the content of one tuple of a Dataset and return one FastQ typed value
   def piping(data: FastQ): FastQ = {
     //CHANGE THE LINES BELOW!!!
-    val command = "src/main/scala/command.sh" //The script goes here
-    val pipeInput = "pipeInput" //the path to the pipe goes here
+    val command = "src/main/scala/comando.sh" //The script goes here
+    val pipeInput = "PIPES/kmer_out.pipe" //the path to the pipe goes here
     val proc = Runtime.getRuntime.exec(Array(command))
 
     new Thread("stderr reader for " + command) {
@@ -83,7 +83,7 @@ object pipe {
     new Thread("stdin writer for " + command) {
       override def run() {
         val out = new PrintWriter(proc.getOutputStream)
-        for (elem <- List(data.id, data.description, data.quality, data.sequence))
+        for (elem <- List(data.id, data.sequence, data.description, data.quality))
           out.println(elem)
         out.close()
       }
@@ -92,7 +92,7 @@ object pipe {
     val outputLines = Source.fromInputStream(proc.getInputStream).getLines
     val outputList = outputLines.toList
     //FIND OUT WHY THE VALUES COMES IN A DIFFERENT ORDER 0,3,1,2 instead of 0,1,2,3
-    return FastQ(outputList(0), outputList(3),outputList(1),outputList(2))
+    return FastQ(outputList(0), outputList(1),outputList(2),outputList(3))
 
   }
 }

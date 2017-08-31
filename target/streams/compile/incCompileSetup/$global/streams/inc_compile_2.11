@@ -1,0 +1,377 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+17 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/main$$anonfun$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/main$.class
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/main.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$1$$anonfun$run$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$2$$anonfun$run$2.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$2.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$main$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$printList$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$readFASTQ$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator1$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator3$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator5$1.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$FastQ$.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$FastQ.class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe.class
+binary dependencies:
+9 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /home/leonardo/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /home/leonardo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /home/leonardo/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+17 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> main
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> main$
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> main$$anonfun$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anon$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anon$1$$anonfun$run$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anon$2
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anon$2$$anonfun$run$2
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anonfun$main$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anonfun$printList$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$anonfun$readFASTQ$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$typecreator1$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$typecreator3$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$$typecreator5$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$FastQ
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe$FastQ$
+used names:
+234 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> *
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> +
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> /
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> <
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> <init>
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> <repeated>
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Any
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> AnyRef
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Array
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Boolean
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> ClassTag
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Double
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Function1
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Inclusive
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Int
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Long
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> NUM_SAMPLES
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Nothing
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Object
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Predef
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> RDD
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Range
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> RichInt
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Seq
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> SparkConf
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> SparkContext
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> String
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> T
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> Unit
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> apache
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> conf
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> count
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> filter
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> intWrapper
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> main
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> materializeClassTag
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> math
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> org
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> package
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> parallelize
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> pi
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> printf
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> random
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> sc
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> scala
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> setAppName
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> setMaster
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> spark
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> to
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> x
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> y
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $anon
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $m
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $m$untyped
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $typecreator1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $typecreator3
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $typecreator5
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> $u
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> &&
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> +
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> +=
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> -
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> <init>
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> <repeated>
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ==
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ?0
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> A
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> AbstractFunction4
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Any
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> AnyRef
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Array
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Boolean
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> BufferedSource
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Builder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Class
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ClassLoader
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ClassTag
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Codec
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> DataFrame
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> DataFrameReader
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Dataset
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> DatasetHolder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Encoder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> FastQ
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Function1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Inclusive
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> IndexOutOfBoundsException
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> InputStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Int
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Internal
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Iterator
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> JavaUniverse
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> List
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ListBuffer
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Mirror
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ModuleSymbol
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> None
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Nothing
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Object
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> OutputStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Predef
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> PrintStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> PrintWriter
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Process
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Product
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Range
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ReificationSupportApi
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> RichInt
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Runtime
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ScalaRunTime
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Seq
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Serializable
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Singleton
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Some
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Source
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> SparkConf
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> SparkContext
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> SparkSession
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> String
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Symbol
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> System
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T0
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T2
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T3
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> T4
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Thread
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> TraversableOnce
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Tuple4
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Type
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> TypeCreator
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> TypeSymbol
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> TypeTag
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> U
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Unit
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> Universe
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> _$1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> _$7
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> _hashCode
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> _toString
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> apache
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> appName
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> apply
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> args
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> array
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> as
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> asInstanceOf
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> asModule
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> asType
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> builder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> by
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> close
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> collect
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> collection
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> command
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> config
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> data
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> description
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ds
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> dsNew
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> elem
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> eq
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> err
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> exec
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> fallbackSystemCodec
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> filePath
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> foreach
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> fromInputStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getClass
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getClassLoader
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getErrorStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getInputStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getLines
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getOrCreate
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getOutputStream
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> getRuntime
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> i
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> id
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> immutable
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> implicits
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> intWrapper
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> internal
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> io
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> isInstanceOf
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> java
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> lang
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> length
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> line
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> lista
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> localSeqToDatasetHolder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> master
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> materializeClassTag
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> materializeTypeTag
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> moduleClass
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> mutable
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> myFile
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> myFile1
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> newList
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> newProductEncoder
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> org
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> out
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> outputLines
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> outputList
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> package
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> pipe
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> piping
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> println
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> proc
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> quality
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> read
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> readFASTQ
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> reflect
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> reificationSupport
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> runtime
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> runtimeMirror
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> scala
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> selectType
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> sequence
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> show
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> spark
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> sql
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> start
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> staticModule
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> textFile
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> to
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> toDF
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> toDS
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> toList
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> toString
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> toTypeConstructor
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> typedProductIterator
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> universe
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> ||
+product stamps:
+17 items
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/main$$anonfun$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/main$.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/main.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$1$$anonfun$run$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$2$$anonfun$run$2.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anon$2.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$main$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$printList$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$anonfun$readFASTQ$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator1$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator3$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$$typecreator5$1.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$FastQ$.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe$FastQ.class -> lastModified(1504105526000)
+/home/leonardo/projects/sparkNew/target/scala-2.11/classes/pipe.class -> lastModified(1504105526000)
+source stamps:
+2 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> hash(374036407534f0966804dc95435a241d04a1a42b)
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> hash(2f18f7db40f4f263a06470fbd212f93b20e72270)
+binary stamps:
+6 items
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+/home/leonardo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/leonardo/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1500317607000)
+class names:
+6 items
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.Encoder
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext$
+/home/leonardo/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.DatasetHolder
+/home/leonardo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Serializable
+/home/leonardo/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwZCOTRAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAUc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdgKAX3QABm5vdGlmeXNxAH4ADMhJp2t0AAR3YWl0c3EAfgAMV0bCV3QADSRhc0luc3RhbmNlT2ZzcQB+AAz1CEW2dAAGZXF1YWxzc3EAfgAM8RGfJnQADGFzSW5zdGFuY2VPZnNxAH4ADAAQBvZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxvpJrcdAANJGlzSW5zdGFuY2VPZnNxAH4ADI3iZTN0AARtYWluc3EAfgAMruDrBnQACW5vdGlmeUFsbHNxAH4ADIGB5610AAxpc0luc3RhbmNlT2ZzcQB+AAxLrACmdAACPT1zcQB+AAyiMG3KdAAFY2xvbmVzcQB+AAydLfFvdAAIdG9TdHJpbmdzcQB+AAzV2jLhdAACIT1zcQB+AAysMPOHdAAIZ2V0Q2xhc3NzcQB+AAyLBJkFdAACbmVzcQB+AAzPgEaUdAACZXFzcQB+AAwHSFgqdAACIyNzcQB+AAwm6SOIdAAIZmluYWxpemVzcQB+AAzCqlExdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgA/eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AB11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AP0wACWluaGVyaXRlZHEAfgA/TAAHcGFyZW50c3EAfgA/eHEAfgBbc3EAfgBWdXEAfgA6AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBAcQB+AEl1cQB+AEoAAAAAc3EAfgBMAHQABG1haW51cQB+AE4AAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AWnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AFpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHd1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBjeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBRdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBrWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBac3EAfgBqdAAFQXJyYXlxAH4AcHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBqdAAGU3RyaW5nc3EAfgBuc3EAfgBxdXEAfgB0AAAAA3NxAH4AdnQABGphdmFzcQB+AHZ0AARsYW5ncQB+AHtzcQB+AFZ1cQB+ADoAAAAAc3EAfgBWdXEAfgCPAAAAAnNxAH4AanQABk9iamVjdHEAfgCTc3EAfgBqdAADQW55cQB+AHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjOstAZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA6L2hvbWUvbGVvbmFyZG8vcHJvamVjdHMvc3BhcmtOZXcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDdANkB1NPCWaATclUNaJB0EoaQr
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwvD8xIQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAuc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwsAb+vHQAB3F1YWxpdHlzcQB+AAxTJDkudAAGbm90aWZ5c3EAfgAM6/P8RnQAB3VuYXBwbHlzcQB+AAxfthN+dAAHY3VycmllZHNxAH4ADCUimlt0AAVGYXN0UXNxAH4ADE0k8ph0AAR3YWl0c3EAfgAMm6JjlnQADmNvcHkkZGVmYXVsdCQyc3EAfgAMF6hJDXQADSRhc0luc3RhbmNlT2ZzcQB+AAxm3Cs7dAAMcHJvZHVjdEFyaXR5c3EAfgAMBAgWEXQABmVxdWFsc3NxAH4ADMtcfHZ0AAtkZXNjcmlwdGlvbnNxAH4ADL+qT9R0AAxhc0luc3RhbmNlT2ZzcQB+AAxsqkajdAAJcHJpbnRMaXN0c3EAfgAM5oK6l3QADHN5bmNocm9uaXplZHNxAH4ADG7rFPB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMk00FtXQABnR1cGxlZHNxAH4ADGs1dAZ0AAhjYW5FcXVhbHNxAH4ADJ4hXE50AAZwaXBpbmdzcQB+AAztH2bJdAAOY29weSRkZWZhdWx0JDRzcQB+AAxWRNtydAAEbWFpbnNxAH4ADP3NHLp0AA1wcm9kdWN0UHJlZml4c3EAfgAMWsu4zHQACW5vdGlmeUFsbHNxAH4ADBk02RZ0AAlyZWFkRkFTVFFzcQB+AAwDPxEkdAAMaXNJbnN0YW5jZU9mc3EAfgAMLJkpKHQABjxpbml0PnNxAH4ADPYkNWN0AAJpZHNxAH4ADGgnz2N0AAhzZXF1ZW5jZXNxAH4ADPN0JoN0AAVhcHBseXNxAH4ADAnf02d0AAVzcGFya3NxAH4ADN8EOI90AAI9PXNxAH4ADG1c+tl0AAVjbG9uZXNxAH4ADPXe5510AAYkaW5pdCRzcQB+AAzCPIh4dAAOY29weSRkZWZhdWx0JDNzcQB+AAzkDE3ddAAEY29weXNxAH4ADDE3fAZ0AAh0b1N0cmluZ3NxAH4ADDgV0Lx0AAIhPXNxAH4ADJMkoUl0AAhnZXRDbGFzc3NxAH4ADGYoYGl0AARwaXBlc3EAfgAMHVwUdXQADmNvcHkkZGVmYXVsdCQxc3EAfgAMHHquy3QAAm5lc3EAfgAM/4tgM3QAAmVxc3EAfgAMRjL3iHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADP8dKzV0AAIjI3NxAH4ADEqHuxl0AAhmaW5hbGl6ZXNxAH4ADLRGByd0AA5wcm9kdWN0RWxlbWVudHNxAH4ADEKJaw90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AWXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBzTAAJaW5oZXJpdGVkcQB+AHNMAAdwYXJlbnRzcQB+AHN4cQB+AI9zcQB+AIp1cQB+AG4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHRxAH4AfXVxAH4AfgAAAABzcQB+AIAAcQB+ADV1cQB+AIIAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AI5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCXeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCFdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCeWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCOc3EAfgCddAAFQXJyYXlxAH4Ao3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCddAAGU3RyaW5nc3EAfgChc3EAfgCkdXEAfgCnAAAAA3NxAH4AqXQABGphdmFzcQB+AKl0AARsYW5ncQB+AK5zcQB+AIp1cQB+AG4AAAAAc3EAfgCKdXEAfgDCAAAAAnNxAH4AnXQABk9iamVjdHEAfgDGc3EAfgCddAADQW55cQB+AKN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjOstAZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA6L2hvbWUvbGVvbmFyZG8vcHJvamVjdHMvc3BhcmtOZXcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFC8Y99tA9PJjoGRw+9IS+Tsg5yJw
+external apis:
+0 items
+source infos:
+2 items
+/home/leonardo/projects/sparkNew/src/main/scala/main.scala -> 
+AAAAAAAAAAA=
+/home/leonardo/projects/sparkNew/src/main/scala/pipe.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjOstAZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOi9ob21lL2xlb25hcmRvL3Byb2plY3RzL3NwYXJrTmV3L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
